@@ -1,8 +1,7 @@
 package com.example.movieapp.retrofit
 
 
-import com.example.movieapp.model.Movies
-import com.example.movieapp.model.MoviesItem
+import com.example.movieapp.home.model.Movies
 import retrofit2.Response
 import retrofit2.http.GET
 

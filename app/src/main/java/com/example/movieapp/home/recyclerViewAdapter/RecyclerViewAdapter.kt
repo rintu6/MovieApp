@@ -1,4 +1,4 @@
-package com.example.movieapp.recyclerViewAdapter
+package com.example.movieapp.home.recyclerViewAdapter
 
 import android.content.Context
 import android.content.Intent
@@ -6,9 +6,9 @@ import android.view.LayoutInflater
 import android.view.ViewGroup
 import androidx.recyclerview.widget.RecyclerView
 import com.bumptech.glide.Glide
-import com.example.movieapp.DetailActivity
+import com.example.movieapp.detail.DetailActivity
 import com.example.movieapp.databinding.CardviewLayoutBinding
-import com.example.movieapp.model.Movies
+import com.example.movieapp.home.model.Movies
 
 class RecyclerViewAdapter(private val context: Context): RecyclerView.Adapter<RecyclerViewAdapter.ViewHolder>() {
 
